@@ -1,0 +1,37 @@
+
+<mat-card class="mat-card">
+    <mat-card-title>Details</mat-card-title>
+    <mat-card-content class="center-content">
+
+        <h4><b>Course Duration:</b> {{course?.amountLesson}} </h4>
+<h4><strong>Learning format: </strong><mat-icon>{{course?.wayLearning|icon}}</mat-icon></h4>
+
+<div>
+    <h4><strong>name:</strong>{{course?.name}}</h4>
+    <div *ngFor="let category of categories">
+        <div *ngIf="course?.categoryId === category.id">
+            <h4><strong>category:</strong> {{category?.name}}</h4>
+        </div>
+    </div>
+    
+    <h4><strong>amountLesson:</strong>{{course?.amountLesson}}</h4>
+    <h4><strong>lectuer:</strong> {{lectur}}</h4>
+     <h4><strong>StartDate:</strong> <span [ngStyle]="{'color': isDateWithinWeek(course?.startDate) ? 'red' : 'black'}">{{ course.startDate | date:'dd/MM/yyyy' }}</span></h4>
+
+     <h4><strong>syllabus:</strong> </h4>
+    <div *ngFor="let c of course.syllabus">
+        <h4> - {{c}}</h4>
+    </div>
+  
+
+    <img  src={{course?.image}} alt="Photo of a camera">
+
+</div>
+<div *ngIf="isEdit === true">
+    <button (click)="editCoures(course)">Edit</button>
+</div>
+</mat-card-content>
+</mat-card>
+
+
+

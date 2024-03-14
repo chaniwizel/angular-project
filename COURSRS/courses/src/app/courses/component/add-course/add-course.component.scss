@@ -1,0 +1,75 @@
+.card {
+    text-align: center;
+    width: 400px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+    text-align: left;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .invalid-feedback {
+    color: rgb(238, 158, 246);
+    margin-top: 5px;
+    text-align: left;
+
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary {
+    background-color: #e6eaee;
+    color: black;
+    border: solid 2px black;
+   
+  }
+  
+  .btn-success {
+  
+    background-color: #e7ede9;
+    border: solid 2px black;
+    color: black;
+
+  }
+  
+  .btn:hover {
+    background-color: #d1d9e2;
+  }
+  
+  .error-message {
+    color: #f4abf4;
+    margin-top: 10px;
+  }
