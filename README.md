@@ -10,13 +10,13 @@ The system was developed in Angular and C# languages.
 
 ### Installation and Setup
  ## Install Prerequisites:<br />
-o	Visual Studio 2022.<br />
-o	Node.js and NPM.<br />
-o	Angular 17<br />
+•	Visual Studio 2022.<br />
+•	Node.js and NPM.<br />
+•	Angular 17<br />
 
 ### Running Instructions:
-o	Run the server-side project using Visual Studio.<br />
-o	Navigate to the client directory and run npm install to install dependencies.<br />
-o	Run ng serve to start the development server.
+•	Run the server-side project using Visual Studio.<br />
+•	Navigate to the client directory and run npm install to install dependencies.<br />
+•	Run ng serve to start the development server.
 
 
