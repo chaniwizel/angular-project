@@ -2,7 +2,7 @@
 Project Description
 This project is a course management system developed in C# and Angular. The system provides functionality such as user management, course management, student management, and more.
 Key Features
-•	User management: registration, login, profile update.
+•	- User management: registration, login, profile update.
 •	Course management: view courses list, add, edit, and delete.
 •	Student management: view students list, add, edit, and delete.
 •	User-friendly interface.
