@@ -1,4 +1,4 @@
-#  Course Management System
+##  Course Management System
 The learning course management project contains functionalities such as course management, student and lecturer management.<br/>
 The system was developed in Angular and C# languages.
 <br />
