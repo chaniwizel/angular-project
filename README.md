@@ -11,15 +11,15 @@ Key Features
 •	Advanced data security.<br />
 
 ### Installation and Setup
-1.	Install Prerequisites:
-o	Visual Studio 20xx or above.
-o	Node.js and NPM.
-o	Angular CLI.
-o	Development environment for C# (e.g., Visual Studio or Visual Studio Code).
-2.	Running Instructions:
-o	Connect to your local server.
-o	Run the server-side project using Visual Studio.
-o	Navigate to the client directory and run npm install to install dependencies.
+1.	Install Prerequisites:<br />
+o	Visual Studio 20xx or above.<br />
+o	Node.js and NPM.<br />
+o	Angular CLI.<br />
+o	Development environment for C# (e.g., Visual Studio or Visual Studio Code).<br />
+### 2.	Running Instructions:
+o	Connect to your local server.<br />
+o	Run the server-side project using Visual Studio.<br />
+o	Navigate to the client directory and run npm install to install dependencies.<br />
 o	Run ng serve to start the development server.
 
 
